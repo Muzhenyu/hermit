@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/echarts.min.js"></script>
+    <script type="text/javascript" src="./js/userinfo.js"></script>
+    <link rel="stylesheet" href="./css/userinfo.css">
+    <title>Title</title>
+    <style>
+        ul li{
+            list-style: none;
+        }
+    </style>
+</head>
+<body>
+<div class="user">
+    <div style="display: none;position: absolute;left: 50%;top: 50%;transform: translate(-50%,-50%);background: wheat;" id="hide_box"><input type="file" id="icon_img"><input type="button" id="icon_upload" value="upload"></div>
+    <div class="user_icon"><img id="usericon"></div>
+    <div id="cusername"></div>
+</div>
+<div class="useroplist">
+    <div class="useroplistli" id="userinfo">基本信息</div>
+    <div class="useroplistli" id="collectionlist">收藏列表</div>
+    <div class="useroplistli" id="userlibrary">图书馆管理</div>
+    <div class="useroplistli" id="libraryexplore">图书馆浏览记录</div>
+</div>
+<div class="userdetail" id="info-box">
+    <div class="userdetailinfo"><span style="margin-right: 10px">email:</span><span id="email"></span><input type="button" id="active_button" value="邮箱激活"></div>
+    <div class="userdetailinfo" ><div style="margin-right: 10px">地址:</div ><ul id="addresses-box"></ul></div>
+    <div class="userdetailinfo">
+        <div class="add_address"><ul id="district"><li class="first_level"><input type="button" value="地区" id="get_district"></li></ul></div>
+        <div class="add_address"><ul id="street"><li class="second_level"><input type="button" value="街道" id="get_street"></li></ul></div>
+        <div class="add_address"><ul><li><input type="button" value="上传地址" id="upload_address"></li></ul></div>
+    </div>
+
+</div>
+</body>
+</html>
+

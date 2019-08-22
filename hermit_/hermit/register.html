@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>register</title>
+    <link rel="stylesheet" href="./css/register.css">
+</head>
+<body>
+<div class="form-item">
+    <span id="userregister" class="form-item" style="padding: 20px;display: inline-block">用户注册</span>
+    <span id="libuserregister" class="form-item" style="padding: 20px;display: inline-block">图书馆用户注册</span>
+</div>
+
+
+    <div class="User-register-container" id="register-container">
+            <div class="form-item">
+                <label for="username">用户名</label>
+                <input type="text" id="username" name="username" placeholder="用户名">
+            </div>
+            <div class="form-item">
+                <label for="password">密码</label>
+                <input type="password" id="password" name="password" placeholder="密码">
+            </div>
+            <div class="form-item">
+                <label for="username">确认密码</label>
+                <input type="password" id="cpassword" name="cpassword" placeholder="确认密码">
+            </div>
+            <div class="form-item">
+                <label for="phone">手机号码</label>
+                <input type="text" id="phone" name="phone" placeholder="手机号码">
+            </div>
+            <div class="form-item">
+                <label for="email">邮箱</label>
+                <input type="text" id="email" name="email" placeholder="邮箱">
+            </div>
+            <div class="form-item">
+                <label for="checkcode">验证码</label>
+                <input style="width: 150px" type="text" id="checkcode" name="code" placeholder="验证码">
+                <button style="width: 110px;" type="button" class="code-btn" id="code-btn">获取验证码</button>
+            </div>
+            <div class="form-item">
+                <label for='msg_code'>phone验证码</label>
+                <input style="width: 150px" type="text" id="msg_code" name="code" placeholder="验证码">
+            </div>
+            <div id="img_code" class="form-item">
+                <img src="#">
+            </div>
+            <div class="form-item">
+                <input type="checkbox" id="checkbox1">
+                <span>clicking means you accept user protocal and security protocal</span>
+            </div>
+
+            <div class="form-item">
+                <button type="button" class="sub-btn" id="sub-btn">立 即 注 册</button>
+            </div>
+    </div>
+
+<div class="lib-register-container">
+
+    <div class="lib-register" style="display: none">
+
+    </div>
+</div>
+</body>
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/register.js"></script>
+</html>

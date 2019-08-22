@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url('../img/bac4.jpg') no-repeat;
+    width: 100%;
+    height: 150%;
+    background-size: cover;
+}
+.register-container{
+    width: 50%;
+    min-width: 400px;
+    height: auto;
+    min-height: 400px;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    /*background: rgba(93,255,178,0.83);*/
+
+}
+.form-item{
+    margin: 10px 0;
+    position: relative;
+    left: 20%;
+    overflow: hidden;
+}
+.form-item label{
+    line-height: 40px;
+}
+.form-item input{
+    position: absolute;
+    left: 100px;
+    border: 1px solid gainsboro;
+    border-radius: 8px;
+    height: 40px;
+    width: 40%;
+    line-height: 40;
+    font-size: 16px;
+    padding-left: 10px;
+}
+input:focus{
+    outline: none;
+}
+.form-item button{
+    width: 40%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    font-family: '微软雅黑', sans-serif;
+    background: lightcyan;
+    border: hidden;
+    outline: none;
+    /*margin-left: 100px;*/
+}
+.sub-btn{
+    margin-left: 50px;
+}
+.code-btn{
+    margin-left: 220px;
+    border-radius: 8px;
+}
+/*button:focus,*/
+/*button:active:focus,*/
+/*button.active:focus,*/
+/*button.focus,*/
+/*button:active.focus,*/
+/*button.active.focus {*/
+    /*outline: none;*/
+    /*border-color: transparent;*/
+    /*box-shadow:none;*/
+/*}*/

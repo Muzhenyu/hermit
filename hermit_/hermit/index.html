@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/hermitstyle.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/login.css">
+    <link rel="stylesheet" href="./css/basis_1.css">
+    <script src="./jquery-1.12.4.min.js"></script>
+    <script src="./js/basis.js"></script>
+    <script src="./js/mjs.js"></script>
+    <script src="./js/login.js"></script>
+    <script src="./js/liblist.js"></script>
+</head>
+<body>
+
+
+
+<div class="header">
+
+    <div>
+        <div class="login-register">
+                <span id="set_1">
+                <a class="login-register-link" id="login-link" href="#">登录</a>
+                <span>|</span>
+                <a class="login-register-link" href="/register.html">注册</a>
+                </span>
+            <span id="user_1" style="position:relative;">
+                    <span style="background:url('./pic/user_herd.gif');background-size:16px 16px;width:16px;height:16px;display:inline-block"></span>
+                    <span>good luck</span>
+                    <button id="bye_1" style="">退出</button>
+                    <span>
+                        <div>
+
+                        </div>
+                    </span>
+                </span>
+        </div>
+    </div>
+</div>
+<div class="main-body">
+    <div class="body-nav">
+        <span>类型:</span>
+        <ul id="libtypesearchlist">
+            <li>不限</li>
+        </ul>
+        <span>地区:</span>
+        <ul id="districtsearchlist">
+        </ul>
+        <span>街道:</span>
+        <ul id="streetsearchlist">
+        </ul>
+        <span>消费:</span>
+        <ul id="pricesearchlist">
+            <li>不限</li>
+            <li><50元</li>
+            <li>50元-80元</li>
+            <li>80元-100元</li>
+            <li>100元-150元</li>
+            <li>>150元</li>
+        </ul>
+    </div>
+    <div class="body-bottom"  id="main_search_box">
+        <ul id="librarylist">
+        </ul>
+    </div>
+</div>
+<hr>
+
+<div style="display: none" class="shadow" id="shadow"></div>
+<div style="display: none" id="login-box" class="login-box">
+    <div class="close-btn">
+        <img src="./img/close.jpg" width="30" height="30" id="close-login-btn" alt="">
+    </div>
+    <span class="input-item" style="padding: 20px" id="user_log">用户登录</span>
+    <div class="input-item">
+        <label for="username">用户名</label>
+        <input type="text" name="username" id="username" placeholder="用户名/邮箱/手机号码">
+    </div>
+    <div class="input-item">
+        <label for="password">密　码</label>
+        <input type="password" name="password" id="password" placeholder="密码">
+    </div>
+    <div class="input-item">
+        <button type="button" class="login-btn" id="login-btn">登　录</button>
+    </div>
+    <div id="showtoken"></div>
+    <div class="input-item">
+        <!--登录即代表你同意 《用户协议》， 《隐私政策》和 中移动认证服务协议-->
+        <span>登录即代表你同意</span>
+        <a href="#">《用户协议》</a>
+        <span>,</span>
+        <a href="#">《隐私政策》</a>
+        <span>和</span>
+        <a href="#">中移动认证服务协议</a>
+
+    </div>
+    </div>
+</div>
+
+</body>
+</html>

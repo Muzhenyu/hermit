@@ -1,0 +1,376 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+hr{
+    width: 1000px;
+    margin-left: 140px;
+    margin-top: 10px;
+}
+input:focus{
+    outline: none;
+}
+a:hover{
+    color: orangered;
+    /* font-size: 18px; */
+}
+#box5 ul li span a:hover{
+    color:black;
+}
+.login-register-link:hover{
+    color: blue;
+    font-size: 18px;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    /* background: gray; */
+}
+.main-body{
+    width: 100%;
+    height: 100%;
+    /* background: cadetblue; */
+}
+.footer{
+    width: 100%;
+    height: 150px;
+    margin-bottom: 50px;
+    /* background: coral; */
+}
+/* 头部 */
+.header>div{
+    float: left;
+    height: 80px;
+    margin: 10px 20px;
+}
+.header p{
+    line-height: 60px;
+}
+
+.logo-box{
+    width: 80px;
+    height: 80px;
+}
+.logo-pic{
+    background: url('../img/Hermit图标.png') no-repeat;
+    background-size: cover; 
+    width: 80px;
+    height: 80px;
+}
+.search{
+    /*width: 825px;*/
+    width: 740px;
+    text-align: right;
+    position: absolute;
+    right: 100px;
+}
+.search-input{
+    border: 1px solid gainsboro;
+    width: 500px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    font-family: '楷体', sans-serif;
+    padding-left: 10px;
+    margin: 20px 0;
+    /* margin-left: 540px; */
+    border-radius: 50px 50px 50px 50px;
+    position: absolute;
+    right: 10px;
+}
+.search-btn{
+    position: relative;
+    top: 25px;
+}
+.login-register{
+    line-height: 40px;
+    margin: 20px;
+    position: absolute;
+    right: 10px;
+}
+
+/* 图片 */
+.pic-box{
+    background: url('../img/1.14蜗牛读书.jpg') no-repeat;
+    width: 600px;
+    height: 400px;
+    background-size: cover;
+    margin-left: 250px;
+}
+/* 导航选择 */
+.body-nav{
+    margin-left: 150px;
+    margin-top: 20px;
+    width: 1000px;
+    height: auto;
+    /* background: cyan; */
+}
+.body-nav ul{
+    margin: 2px 0;
+    /* border: 1px solid gainsboro; */
+}
+.body-nav span{
+    display: inline-block;
+    line-height: 40px;
+    width: 40px;
+    /* background: rgb(230, 227, 227); */
+}
+.body-nav ul li{
+    line-height: 40px;
+    width: 120px;
+    text-align: center;
+    border-radius: 5px;
+    /* background: green; */
+}
+
+.lisetcolor-green{
+    color: rgb(9, 228, 9);
+    cursor: pointer;
+}
+.lisetcolor-black{
+    color: black;
+}
+.liChoosed{
+    background: rgb(36, 202, 36);
+    color: black;
+}
+/* .liremoveChoosed{
+    background: white;
+    color: black;
+} */
+
+/* 正文，书店展示 */
+.body-bottom{
+    margin-left: 150px;
+    width: 1000px;
+    height: auto;
+}
+
+.body-bottom ul li{
+    width: 400px;
+    height: 150px;
+    /* line-height: 150px; */
+    text-align: center;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+.item{
+    width: 400px;
+    height: 150px;
+    text-align: left;
+    background: rgb(250, 252, 251);
+    border-radius: 5px;
+}
+.item-pic{
+    display: inline-block;
+}
+.item-info{
+    display: inline-block;
+    text-align: left;
+    max-width: 240px;
+    height: 150px;
+    margin-left: 5px;
+    /* background: red; */
+    overflow: hidden;
+}
+.item-info h3,p{
+    /* height: 18px; */
+    margin: 4px;
+    font-family: sans-serif;
+    /* padding: 0; */
+    /* line-height: 18px; */
+}
+.snail-pic{
+    background: url('../img/1.4蜗牛读书.jpg') no-repeat;
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+}
+.xiaoWang-pic{
+    background: url('../img/2.书店.png') no-repeat;
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+}
+.yuelanshu-pic{
+    background: url('../img/3.悦览树.jpg') no-repeat;
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+}
+.zhongshuge-pic{
+    background: url('../img/4.5钟书阁.jpg') no-repeat;
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+}
+
+
+
+
+.chicken-soup{
+    margin-top: 20px;
+    margin-left: 150px;
+    width: 1000px;
+    height: 150px;
+    /* background: aqua; */
+}
+.soup-pic,.soup-content{
+    display: inline-block;
+}
+.soup-pic{
+    background: url('../img/启动页面.jfif') no-repeat;
+    /* background: red; */
+    width: 120px;
+    height: 150px;
+    background-size: cover;
+}
+.soup-content{
+    width: 800px;
+    height: 120px;
+    /* background: gold; */
+    margin-top: 10px;
+    overflow: hidden;
+}
+.soup-content p{
+    margin-left: 30px;
+    font-family: 'FZShuTi', sans-serif;
+    font-size: 25px;
+}
+.soupContent{
+    margin-left: 30px;
+    margin-top: 10px;
+    font-family: 'STKaiti', sans-serif;
+    /* margin-top: 100px; */
+}
+
+
+
+/* 半透明的遮罩层 */
+#shadow {
+    background: #000;
+    filter: alpha(opacity=70); /* IE的透明度 */
+    opacity: 0.7;  /* 透明度 */
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 996; /* 此处的图层要大于页面 */
+}
+
+
+
+
+#user_1{
+    display:none;
+}
+.login_window{
+            width: 800px;
+            height: 480px;
+            background-color: white;
+            position: fixed;
+            top: 160px;
+            left: 30%;
+            overflow: hidden;
+            border-radius: 15px;
+        }
+        #image1{
+            float: right;
+        }
+        .window_top{
+            width: 789px;
+            height: 73.6px;
+            text-align: center;
+            font-size: 30px;
+            margin-top: 20px;
+        }
+
+        .window_middle{
+            width: 789px;
+            height: 108px;
+            text-align: center;
+        }
+        .window_middle p{
+            display: inline-block;
+            width: 107px;
+            height: 41.6px;
+            font-size: 20px;
+        }
+        .input1{
+            width: 390px;
+            height: 30px;
+            font-size: 16px;
+        }
+
+        .input2{
+            width: 232px;
+            height: 30px;
+            font-size: 16px;
+        }
+        .input3{
+            width: 150px;
+            height: 42px;
+            background-color: rgb(255,152,0);
+            border: 0 none;
+            font-size: 16px;
+            color: white;
+            margin-left: 5px;
+        }
+        #btn{
+            width: 410px;
+            height: 50px;
+            border: 0 none;
+            color: white;
+            background-color: #22ac38;
+            display: block;
+            margin: 15px auto;
+            font-size: 30px;
+        }
+        .window_bottom{
+            height: 15px;
+            line-height: 15px;
+            font-size: 15px;
+            text-align: center;
+            color: rgb(157,155,155);
+            margin: 35px auto;
+        }
+        .login_type{
+            width: 360px;
+            height: 45px;
+            margin: 0 auto;
+        }
+        .pt{
+            width: 35px;
+            height: 35px;
+            padding: 0 36px;
+        }
+        .window_bottom_two{
+            text-align: center;
+            font-size: 16px;
+            line-height: 16px;
+            margin-top: 35px;
+        }
+        .window_bottom_two a{
+            text-decoration: none;
+            color: #22ac38;
+        }
+        #null{
+             color: red;
+            display: none;
+        }
+
+        #erro{
+            color: red;
+            display: none;
+        }

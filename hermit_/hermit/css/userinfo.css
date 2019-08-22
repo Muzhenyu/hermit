@@ -1,0 +1,78 @@
+
+#usericon{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+.user{
+    position: absolute;
+    padding-top:20px ;
+    padding-bottom: 20px;
+    width: 200px;
+    text-align: center;
+    border: 1px green solid;
+    left: 40px;
+    top:30px;
+}
+
+.useroplist{
+    position: absolute;
+    display: inline-block;
+    width: 800px;
+    height: 80px;
+    left: 300px;
+    top:70px;
+    border: 1px green solid;
+    padding-left: 30px;
+}
+.useroplistli{
+    position: relative;
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 40px;
+    text-align: center;
+    height: 40px;
+    width: 120px;
+    border: 1px green solid;
+}
+
+.userdetail{
+    position: absolute;
+    left: 300px;
+    top:150px;
+    width:800px;
+    height:800px;
+    border: 1px green solid;
+}
+
+.addaddress{
+    width: 400px;
+    height: 100px;
+    position: absolute;
+    left: 300px;
+    top:300px;
+    border: 1px green solid;
+}
+.first_level{
+    width: 50px;
+    font-family: '微软雅黑', sans-serif;
+    font-size: 14px;
+}
+.add_address{
+    float: left;
+}
+
+input{
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    border: black 1px solid;
+}
+.useraddress{
+    width: 400px;
+    height: 100px;
+    position: absolute;
+    border: 1px green solid;
+    background: none;
+    padding: 0px;
+}
